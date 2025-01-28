@@ -324,6 +324,13 @@ body::-webkit-scrollbar-track {
     transition: all 0.2s ease-in-out;
     
 }
+@media (max-width:820px) {
+    .visit-card-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 
 
 
