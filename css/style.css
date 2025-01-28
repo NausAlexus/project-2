@@ -1,0 +1,214 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0 100px;
+    background-color: #002147;
+    color: #A9A9A9;
+}
+
+.header {
+    padding: 35px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #001F33;
+    transition: top 0.3s;
+    z-index: 1000;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.nav-list {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+    display: flex; /* Используем flexbox для расположения элементов */
+}
+
+.nav-item {
+    margin-left: 20px; /* Отступ между пунктами навигации */
+}
+
+.nav-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #A9A9A9;
+    font-size: 18px; /* Размер шрифта ссылок */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left-block {
+    flex: 1;
+}
+
+.right-block {
+    flex: 1;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.menu-button {
+    display: inline-block; /* Чтобы кнопка выглядела как элемент блока */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    background-color: #FFD700; /* Цвет фона кнопки */
+    color: #002147; /* Цвет текста кнопки */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Скругление углов кнопки */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.menu-button:hover {
+    background-color: #FFC107; /* Цвет фона при наведении */
+}
+
+
+
+
+
+
+
+.promotion-section {
+    text-align: center; /* Центрирование текста */
+    padding: 20px; /* Отступы вокруг секции */
+}
+
+.promotion-grid {
+    display: grid; /* Использование грида */
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 20px; /* Промежутки между карточками */
+    margin-top: 20px; /* Отступ сверху для грида */
+}
+
+.promotion-card {
+    border: 1px solid #ccc; /* Граница карточки */
+    border-radius: 20px; /* Скругление углов */
+    padding: 15px; /* Отступы внутри карточки */
+    background-color: #fff; /* Цвет фона карточки */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для карточки */
+    transition: transform 0.3s; /* Плавный эффект при наведении */
+}
+
+.promotion-card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+}
+
+.promotion-image {
+    width: 100%; /* Ширина изображения на 100% карточки */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 20px; /* Скругление углов изображения */
+}
+
+.pizza-name {
+    font-size: 1.5em; /* Размер шрифта для названия пиццы */
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+.pizza-description {
+    font-size: 1em; /* Размер шрифта для описания пиццы */
+    color: #666; /* Цвет текста описания */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.price-container {
+    display: flex; /* Использование flex для размещения цен */
+    justify-content: center; /* Центрирование цен */
+    align-items: center; /* Вертикальное выравнивание */
+}
+
+.original-price {
+    text-decoration: line-through; /* Перечеркивание оригинальной цены */
+    color: #999; /* Цвет оригинальной цены */
+    margin-right: 10px; /* Отступ справа */
+}
+
+.discounted-price {
+    font-size: 1.2em; /* Размер шрифта для цены со скидкой */
+    color: red; /* Цвет для цены со скидкой */
+}
+
+
+
+
+
+
+
+.visit-section {
+    text-align: center; /* Центрирование текста */
+    padding: 20px; /* Отступы вокруг секции */
+}
+
+.section-title {
+    font-size: 2em; /* Размер шрифта заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.visit-grid {
+    display: grid; /* Использование грида */
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    gap: 20px; /* Промежутки между карточками */
+}
+
+.visit-card {
+    background-color: #001f339e; /* Полупрозрачный черный фон */
+    color: white; /* Цвет текста */
+    border-radius: 8px; /* Скругление углов карточки */
+    padding: 15px; /* Отступы внутри карточки */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: transform 0.2s; /* Плавный эффект при наведении */
+}
+
+.visit-card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+}
+
+.card-content {
+    display: flex; /* Использование flex для размещения иконок и текста */
+    align-items: center; /* Вертикальное выравнивание */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.card-content i {
+    margin-right: 10px; /* Отступ справа для иконки */
+    font-size: 1.2em; /* Размер иконки */
+}
+
+/* Дополнительные стили для иконок (если используете Font Awesome или другие библиотеки) */
+.card-content i {
+    color: white; /* Цвет иконок */
+}
