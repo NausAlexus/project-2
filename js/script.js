@@ -16,10 +16,16 @@ window.addEventListener('scroll', function() {
 
     function openPopup() {
         document.getElementById('popup-form').style.display = 'flex';
+
+        if (window.innerWidth < 427) {
+            document.body.classList.add('no-scroll');
+        }
     }
 
     document.getElementById('close-popup').addEventListener('click', function() {
         document.getElementById('popup-form').style.display = 'none';
+
+        document.body.classList.remove('no-scroll');
     });
 
     const promotionCards = document.querySelectorAll('.promotion-card');
