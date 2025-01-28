@@ -12,3 +12,21 @@ window.addEventListener('scroll', function() {
     
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 });
+
+
+
+    // Функция для открытия формы
+    function openPopup() {
+        document.getElementById('popup-form').style.display = 'flex';
+    }
+
+    // Функция для закрытия формы
+    document.getElementById('close-popup').addEventListener('click', function() {
+        document.getElementById('popup-form').style.display = 'none';
+    });
+
+    // Добавление обработчиков кликов на карточки
+    const promotionCards = document.querySelectorAll('.promotion-card');
+    promotionCards.forEach(card => {
+        card.addEventListener('click', openPopup);
+    });

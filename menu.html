@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crustacean Creations - Menu</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleMenu.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -21,7 +23,7 @@
         <section class="promotion-section">
             <h2 class="section-title">Our Pizzas</h2>
             <div class="promotion-grid">
-                <div class="promotion-card">
+                <div class="promotion-card" onclick="openPopup()">
                     <img src="img/menu/margherita.png" alt="Pizza 1" class="promotion-image">
                     <h3 class="pizza-name">Margherita</h3>
                     <p class="pizza-description">Classic pizza with fresh tomatoes, mozzarella, and basil.</p>
@@ -321,6 +323,23 @@
             <h2 class="section-title">Special Offers</h2>
             <p class="special-offers-text">Check out our daily specials and combo deals for a delightful dining experience!</p>
         </section>
+
+
+        <div id="popup-form" class="popup-form" style="display: none;">
+            <form action="thanks_form.php" class="site-form " method="post">
+                <h2 class="title ">Leave a request</h2>
+                <img id="close-popup" src="img/close.png" class="close" alt="close" class="close">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <div class="checkbox">
+
+
+                    <input type="checkbox" name="privacy" value="on" required> I accept <a href="privacy-policy.html">Privacy policy</a>
+                </div>
+                <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
     </main>
 
     <footer class="footer">
