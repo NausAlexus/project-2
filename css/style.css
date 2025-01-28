@@ -27,6 +27,24 @@ body {
     flex-direction: column;
 }
 
+@media (max-width: 900px) {
+    body{
+        padding: 0 15px;
+        font-size: 16px;
+    }
+    .navigation{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header{
+        padding: 35px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
 body::-webkit-scrollbar {
     width: 10px;
     background-color: #5e5e5e;
@@ -198,6 +216,15 @@ body::-webkit-scrollbar-track {
     gap: 20px;
 }
 
+@media (max-width: 769px) {
+    .visit-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+    
+}   
+
 .visit-card {
     background-color: #001f3393; 
     color: #A9A9A9;
@@ -261,4 +288,46 @@ body::-webkit-scrollbar-track {
     .contact-email:hover {
         color: #FFD700;
     }
+}
+
+@media (max-width:550px) {
+    .promotion-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .promotion-section{
+        padding: 0;
+    }
+
+    .nav-item{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    
+    .about-image{
+        position: absolute;
+        z-index: -1;
+        opacity: 0.2;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+        border-radius: 0;
+    }
+    
+    .about-container{
+        display: block;
+    }
+
+    .visit-section{
+        padding: 0;
+    }
+    .main-content{
+        margin-top: 130px;
+    }
+
+    .promotion-card{
+        padding: 3px;
+    }
+    
 }
