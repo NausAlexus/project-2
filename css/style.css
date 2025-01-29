@@ -174,6 +174,19 @@ body::-webkit-scrollbar-track {
     transform: scale(1.05);
 }
 
+.promotion-card-about {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.promotion-card-about:hover {
+    transform: scale(1.05);
+}
+
 .promotion-image {
     width: 100%;
     height: auto;
@@ -357,6 +370,9 @@ body::-webkit-scrollbar-track {
     }
 
     .promotion-card {
+        padding: 3px;
+    }
+    .promotion-card-about {
         padding: 3px;
     }
 
