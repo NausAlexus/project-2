@@ -544,9 +544,16 @@ body::-webkit-scrollbar-track {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
     transition: transform 0.3s;
+}
+
+@media (max-width:768px) {
+    .promo-card p{
+        width: 90%;
+    }
+    
 }
 
 .promo-card:hover {
@@ -555,22 +562,18 @@ body::-webkit-scrollbar-track {
 
 h1 {
     color: #ffd700;
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .promo-text {
-    font-size: 1.2em;
     margin: 10px 0;
 }
 
 .delivery-info {
-    font-size: 1.1em;
     margin: 10px 0;
 }
 
 .call-to-action {
-    font-size: 1em;
     margin: 20px 0;
 }
 
