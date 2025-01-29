@@ -659,4 +659,7 @@ h1 {
     .visit-card i {
         font-size: 12px;
     }
+    .nav-link{
+        padding: 2px 5px;
+    }
 }
