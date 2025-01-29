@@ -9,7 +9,8 @@
 html,
 body {
     height: 100%;
-    margin: 0;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 html {
@@ -75,6 +76,9 @@ body::-webkit-scrollbar-track {
     z-index: 1000;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    max-width: 1920px;
+    margin: 0 auto;
+
 }
 
 .navigation {
