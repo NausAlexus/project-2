@@ -280,6 +280,148 @@ body::-webkit-scrollbar-track {
     transition: color 0.3s ease;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chefs-section {
+    background-color: #002147;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.chefs-section h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.chef-profiles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chef-profile {
+    background-color: #001f33;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.chef-profile:hover {
+    transform: scale(1.05);
+}
+
+.chef-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.chef-profile h2 {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.chef-profile p {
+    color: #a9a9a9;
+}
+
+/* Адаптивные стили */
+@media (min-width: 768px) {
+    .chef-profiles {
+        flex-direction: row; /* Горизонтальная ориентация на больших экранах */
+        justify-content: center; /* Центрирование карточек */
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pizza-making-process {
+    padding: 40px 20px; /* Отступы сверху и снизу */
+    background-color: #001f33; /* Цвет фона секции */
+    text-align: center; /* Центрирование текста */
+    border-radius: 20px; /* Закругленные углы */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для секции */
+    margin: 20px; /* Отступы вокруг секции */
+}
+
+.pizza-making-process h1 {
+    font-size: 2.5em; /* Размер заголовка */
+    color: #ffd700; /* Цвет заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.process-details {
+    background-color: #002147; /* Темный фон для деталей процесса */
+    border-radius: 20px; /* Закругленные углы */
+    padding: 20px; /* Отступы внутри блока */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для блока */
+}
+
+.process-details h2 {
+    font-size: 1.8em; /* Размер заголовков секций */
+    color: #ffd700; /* Цвет заголовков */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.process-details p {
+    font-size: 1em; /* Размер текста */
+    color: #a9a9a9; /* Цвет текста */
+    line-height: 1.6; /* Междустрочный интервал для удобства чтения */
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+@media (max-width: 769px) {
+    .pizza-making-process {
+        padding: 20px; /* Уменьшение отступов на мобильных устройствах */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1025px) {
     .nav-link:hover {
         background-color: #ffd700;
