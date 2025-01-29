@@ -1,219 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crustacean Creations - Authentic Pizzeria in Delhi</title>
-    <meta name="description" content="Crustacean Creations offers a unique pizza experience in Delhi, blending authentic flavors with fresh ingredients. Come taste the magic!">
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styleMenu.css">
-    <script src="js/script.js" defer></script>
-</head>
-<body>
-    <header class="header">
-        <nav class="navigation">
-            <a class="header-link" href="index.html">Crustacean Creations</a>
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#promotion">Promotion</a></li>
-                <li class="nav-item"><a class="nav-link" href="#visit">Visit</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Crustacean Creations - Authentic Pizzeria in Delhi</title>
+        <meta
+            name="description"
+            content="Crustacean Creations offers a unique pizza experience in Delhi, blending authentic flavors with fresh ingredients. Come taste the magic!"
+        />
+        <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css" />
+        <link rel="icon" href="img/favicon.ico" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/styleMenu.css" />
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <a class="header-link" href="index.html"
+                    >Crustacean Creations</a
+                >
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promotion">Promotion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#visit">Visit</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <main class="main-content">
-
-        <section class="about-section" id="about">
-            <div class="about-container">
-                <div class="left-block">
-                    <img src="img/pizza-welcome-img.jpg" alt="Delicious Pizza" class="about-image">
+        <main class="main-content">
+            <section class="about-section" id="about">
+                <div class="about-container">
+                    <div class="left-block">
+                        <img
+                            src="img/pizza-welcome-img.jpg"
+                            alt="Delicious Pizza"
+                            class="about-image"
+                        />
+                    </div>
+                    <div class="right-block">
+                        <h1 class="welcome-text">Welcome!</h1>
+                        <h2 class="section-title">Pizza of Your City</h2>
+                        <p class="about-text">
+                            At our pizzeria, we offer unique recipes that
+                            reflect the spirit of your city. Each pizza is
+                            crafted with love and attention to detail, using
+                            only fresh and high-quality ingredients. We
+                            guarantee that every bite will be a true celebration
+                            of flavor!
+                        </p>
+                        <a href="menu.html" class="menu-button">View Menu</a>
+                    </div>
                 </div>
-                <div class="right-block">
-                    <h1 class="welcome-text">Welcome!</h1>
-                    <h2 class="section-title">Pizza of Your City</h2>
-                    <p class="about-text">At our pizzeria, we offer unique recipes that reflect the spirit of your city. Each pizza is crafted with love and attention to detail, using only fresh and high-quality ingredients. We guarantee that every bite will be a true celebration of flavor!</p>
-                    <a href="menu.html" class="menu-button">View Menu</a>
+                <div class="about-container">
+                    <div class="left-block">
+                        <h2 class="section-title">Our Story</h2>
+                        <p class="about-text">
+                            Founded in the heart of New Delhi, Crustacean
+                            Creations has been serving delicious pizzas since
+                            2010. Our journey began with a passion for authentic
+                            Italian flavors, combined with a unique Indian
+                            twist. We pride ourselves on using locally sourced
+                            ingredients and traditional recipes, ensuring that
+                            every pizza is a masterpiece.
+                        </p>
+                        <p class="about-text">
+                            At Crustacean Creations, we believe in creating a
+                            warm and inviting atmosphere where friends and
+                            families can gather to enjoy great food and company.
+                            Our chefs are dedicated to innovating and
+                            experimenting with flavors, making each visit a new
+                            culinary adventure. Join us as we continue to
+                            celebrate the art of pizza-making, one slice at a
+                            time!
+                        </p>
+                        <a href="chef.html" class="menu-button">Our chefs</a>
+                    </div>
+                    <div class="right-block">
+                        <img
+                            src="img/pizza-history-img.jpg"
+                            alt="Our Story"
+                            class="about-image"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="promotion-section" id="promotion">
+                <h2 class="section-title">Promotion of the Day</h2>
+                <div class="promotion-grid">
+                    <div class="promotion-card">
+                        <img
+                            src="img/menu/margherita.jpg"
+                            alt="Pizza 1"
+                            class="promotion-image"
+                        />
+                        <h3 class="pizza-name">Margherita</h3>
+                        <p class="pizza-description">
+                            Classic pizza with fresh tomatoes, mozzarella, and
+                            basil.
+                        </p>
+                        <div class="price-container">
+                            <span class="original-price">$12.00</span>
+                            <span class="discounted-price">$9.00</span>
+                        </div>
+                    </div>
+                    <div class="promotion-card">
+                        <img
+                            src="img/menu/pepperoni.jpg"
+                            alt="Pizza 2"
+                            class="promotion-image"
+                        />
+                        <h3 class="pizza-name">Pepperoni</h3>
+                        <p class="pizza-description">
+                            Spicy pepperoni slices with mozzarella and tomato
+                            sauce.
+                        </p>
+                        <div class="price-container">
+                            <span class="original-price">$14.00</span>
+                            <span class="discounted-price">$10.50</span>
+                        </div>
+                    </div>
+                    <div class="promotion-card">
+                        <img
+                            src="img/menu/vegetarian.jpg"
+                            alt="Pizza 3"
+                            class="promotion-image"
+                        />
+                        <h3 class="pizza-name">Vegetarian</h3>
+                        <p class="pizza-description">
+                            Loaded with fresh veggies and mozzarella cheese.
+                        </p>
+                        <div class="price-container">
+                            <span class="original-price">$11.00</span>
+                            <span class="discounted-price">$8.50</span>
+                        </div>
+                    </div>
+                    <div class="promotion-card">
+                        <img
+                            src="img/menu/bbq-chicken.jpg"
+                            alt="Pizza 4"
+                            class="promotion-image"
+                        />
+                        <h3 class="pizza-name">BBQ Chicken</h3>
+                        <p class="pizza-description">
+                            Grilled chicken with BBQ sauce and red onions.
+                        </p>
+                        <div class="price-container">
+                            <span class="original-price">$15.00</span>
+                            <span class="discounted-price">$11.00</span>
+                        </div>
+                    </div>
+                    <div class="promotion-card">
+                        <img
+                            src="img/menu/four-cheese.jpg"
+                            alt="Pizza 5"
+                            class="promotion-image"
+                        />
+                        <h3 class="pizza-name">Four Cheese</h3>
+                        <p class="pizza-description">
+                            A blend of four delicious cheeses on a crispy crust.
+                        </p>
+                        <div class="price-container">
+                            <span class="original-price">$13.00</span>
+                            <span class="discounted-price">$9.50</span>
+                        </div>
+                    </div>
+                    <div class="promotion-card">
+                        <img
+                            src="img/menu/seafood.jpg"
+                            alt="Pizza 6"
+                            class="promotion-image"
+                        />
+                        <h3 class="pizza-name">Seafood</h3>
+                        <p class="pizza-description">
+                            Topped with fresh seafood and a hint of garlic.
+                        </p>
+                        <div class="price-container">
+                            <span class="original-price">$16.00</span>
+                            <span class="discounted-price">$12.00</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews-section" id="reviews">
+                <div class="container">
+                    <h1 class="reviews-section-title">
+                        Customer Reviews for Crustacean Creations
+                    </h1>
+                    <div class="slider" id="slider">
+                        <div class="review">
+                            <p>
+                                "Absolutely amazing! Crustacean Creations offers
+                                a unique seafood-inspired pizza experience that
+                                you won’t find anywhere else."
+                            </p>
+                            <p class="author">- Emily R.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "I was skeptical about seafood on pizza, but
+                                Crustacean Creations proved me wrong! The
+                                Lobster Delight pizza was out of this world."
+                            </p>
+                            <p class="author">- James T.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "Great atmosphere, friendly staff, and the best
+                                shrimp Alfredo pizza I’ve ever had. This place
+                                is a must-visit!"
+                            </p>
+                            <p class="author">- Sophia M.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "Crustacean Creations is a game-changer! The
+                                combination of fresh seafood and pizza flavors
+                                is genius."
+                            </p>
+                            <p class="author">- Daniel K.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "If you love seafood, this is the pizza place
+                                for you! The flavors are bold and delicious, and
+                                the service is top-notch."
+                            </p>
+                            <p class="author">- Olivia W.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "Tried the Clam & Garlic pizza and was blown
+                                away. The crust was perfect, and the seafood was
+                                cooked just right."
+                            </p>
+                            <p class="author">- Michael B.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "A truly unique experience! Crustacean Creations
+                                offers a fresh take on pizza with high-quality
+                                seafood ingredients."
+                            </p>
+                            <p class="author">- Jessica L.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "Perfect balance of flavors! The Seafood Medley
+                                pizza was packed with fresh shrimp, crab, and
+                                scallops—absolutely delicious."
+                            </p>
+                            <p class="author">- William C.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "This place exceeded my expectations! Who knew
+                                seafood and pizza could be such a perfect
+                                match?"
+                            </p>
+                            <p class="author">- Anna D.</p>
+                        </div>
+                        <div class="review">
+                            <p>
+                                "Crustacean Creations takes pizza to the next
+                                level! Fresh ingredients, great service, and
+                                unique flavors make this place stand out."
+                            </p>
+                            <p class="author">- Chris P.</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn" onclick="prevReview()">Previous</button>
+                        <button class="btn" onclick="nextReview()">Next</button>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="promo-card">
+                        <h1>🍕 Crustacean Creations 🍕</h1>
+                        <p class="promo-text">We are excited to announce that we now offer delivery!</p>
+                        <p class="delivery-info">Order your favorite pizza, and we will deliver it right to your doorstep in just <strong>1 hour</strong>!</p>
+                        <p class="call-to-action">Don't miss the chance to enjoy fresh and delicious pizzas made with love.</p>
+                        <button class="order-button" onclick="openPopup()">Order Now</button>
+                    </div>
+            </section>
+            <section class="visit-section" id="visit">
+                <h2 class="section-title">Restaurants Crustacean Creations</h2>
+                <div class="visit-grid">
+                    <div
+                        class="visit-card"
+                        onclick="window.open('https://www.google.com/maps?q=63/63,+Bangla+Sahib+Rd,+New+Delhi', '_blank')"
+                    >
+                        <div class="card-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>63/63, Bangla Sahib Rd, New Delhi</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-clock"></i>
+                            <span>Open: 11 AM - 10 PM</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43210</span>
+                        </div>
+                    </div>
+                    <div
+                        class="visit-card"
+                        onclick="window.open('https://www.google.com/maps?q=5781,+Katra+Rathi,+New+Delhi', '_blank')"
+                    >
+                        <div class="card-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>5781, Katra Rathi, New Delhi</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-clock"></i>
+                            <span>Open: 11 AM - 10 PM</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43211</span>
+                        </div>
+                    </div>
+                    <div
+                        class="visit-card"
+                        onclick="window.open('https://www.google.com/maps?q=22,+Khan+Market,+Rabindra+Nagar,+New+Delhi', '_blank')"
+                    >
+                        <div class="card-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span
+                                >22, Khan Market, Rabindra Nagar, New
+                                Delhi</span
+                            >
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-clock"></i>
+                            <span>Open: 11 AM - 10 PM</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43212</span>
+                        </div>
+                    </div>
+                    <div
+                        class="visit-card"
+                        onclick="window.open('https://www.google.com/maps?q=110/10,+Gautam+Nagar,+New+Delhi', '_blank')"
+                    >
+                        <div class="card-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>110/10, Gautam Nagar, New Delhi</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-clock"></i>
+                            <span>Open: 11 AM - 10 PM</span>
+                        </div>
+                        <div class="card-content">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43213</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="popup-form" class="popup-form" style="display: none">
+                <div id="overlay" class="overlay"></div>
+                <form action="thanks_form.php" class="site-form" method="post">
+                    <h2 class="title">Leave a request</h2>
+                    <img
+                        id="close-popup"
+                        src="img/close.png"
+                        class="close"
+                        alt="close"
+                        class="close"
+                    />
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                    />
+                    <textarea
+                        name="message"
+                        placeholder="Message"
+                        required
+                    ></textarea>
+                    <div class="checkbox">
+                        <input
+                            type="checkbox"
+                            name="privacy"
+                            value="on"
+                            required
+                        />
+                        I accept
+                        <a class="privacy-form" href="privacy-policy.html"
+                            >Privacy policy</a
+                        >
+                    </div>
+                    <button type="submit" class="btn btn-send">Send</button>
+                </form>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="visit-card-footer">
+                <div
+                    class="card-content"
+                    onclick="window.open('https://www.google.com/maps?q=1417+Sitaram+Bazar+Rd,+Kucha+Pati+Ram,+Old+Delhi,+New+Delhi', '_blank')"
+                >
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span
+                        >1417, Sitaram Bazar Rd, Kucha Pati Ram, Old Delhi, New
+                        Delhi</span
+                    >
+                </div>
+                <div class="card-content">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+919876543210">+91 98765 43210</a>
+                </div>
+                <div class="card-content">
+                    <a
+                        href="mailto:crustaceancreations@gmail.com"
+                        class="contact-email"
+                        >crustaceancreations@gmail.com</a
+                    >
                 </div>
             </div>
-            <div class="about-container">
-                <div class="left-block">
-                    <h2 class="section-title">Our Story</h2>
-                    <p class="about-text">Founded in the heart of New Delhi, Crustacean Creations has been serving delicious pizzas since 2010. Our journey began with a passion for authentic Italian flavors, combined with a unique Indian twist. We pride ourselves on using locally sourced ingredients and traditional recipes, ensuring that every pizza is a masterpiece.</p>
-                    <p class="about-text">At Crustacean Creations, we believe in creating a warm and inviting atmosphere where friends and families can gather to enjoy great food and company. Our chefs are dedicated to innovating and experimenting with flavors, making each visit a new culinary adventure. Join us as we continue to celebrate the art of pizza-making, one slice at a time!</p>
-                    <a href="chef.html" class="menu-button">Our chefs</a>
-                </div>
-                <div class="right-block">
-                    <img src="img/pizza-history-img.jpg" alt="Our Story" class="about-image">
-                </div>
-            </div>
-
-        </section>
-
-        <section class="promotion-section" id="promotion">
-            <h2 class="section-title">Promotion of the Day</h2>
-            <div class="promotion-grid">
-                <div class="promotion-card">
-                    <img src="img/menu/margherita.jpg" alt="Pizza 1" class="promotion-image">
-                    <h3 class="pizza-name">Margherita</h3>
-                    <p class="pizza-description">Classic pizza with fresh tomatoes, mozzarella, and basil.</p>
-                    <div class="price-container">
-                        <span class="original-price">$12.00</span>
-                        <span class="discounted-price">$9.00</span>
-                    </div>
-                </div>
-                <div class="promotion-card">
-                    <img src="img/menu/pepperoni.jpg" alt="Pizza 2" class="promotion-image">
-                    <h3 class="pizza-name">Pepperoni</h3>
-                    <p class="pizza-description">Spicy pepperoni slices with mozzarella and tomato sauce.</p>
-                    <div class="price-container">
-                        <span class="original-price">$14.00</span>
-                        <span class="discounted-price">$10.50</span>
-                    </div>
-                </div>
-                <div class="promotion-card">
-                    <img src="img/menu/vegetarian.jpg" alt="Pizza 3" class="promotion-image">
-                    <h3 class="pizza-name">Vegetarian</h3>
-                    <p class="pizza-description">Loaded with fresh veggies and mozzarella cheese.</p>
-                    <div class="price-container">
-                        <span class="original-price">$11.00</span>
-                        <span class="discounted-price">$8.50</span>
-                    </div>
-                </div>
-                <div class="promotion-card">
-                    <img src="img/menu/bbq-chicken.jpg" alt="Pizza 4" class="promotion-image">
-                    <h3 class="pizza-name">BBQ Chicken</h3>
-                    <p class="pizza-description">Grilled chicken with BBQ sauce and red onions.</p>
-                    <div class="price-container">
-                        <span class="original-price">$15.00</span>
-                        <span class="discounted-price">$11.00</span>
-                    </div>
-                </div>
-                <div class="promotion-card">
-                    <img src="img/menu/four-cheese.jpg" alt="Pizza 5" class="promotion-image">
-                    <h3 class="pizza-name">Four Cheese</h3>
-                    <p class="pizza-description">A blend of four delicious cheeses on a crispy crust.</p>
-                    <div class="price-container">
-                        <span class="original-price">$13.00</span>
-                        <span class="discounted-price">$9.50</span>
-                    </div>
-                </div>
-                <div class="promotion-card">
-                    <img src="img/menu/seafood.jpg" alt="Pizza 6" class="promotion-image">
-                    <h3 class="pizza-name">Seafood</h3>
-                    <p class="pizza-description">Topped with fresh seafood and a hint of garlic.</p>
-                    <div class="price-container">
-                        <span class="original-price">$16.00</span>
-                        <span class="discounted-price">$12.00</span>
-                    </div>
-                </div>
-            </div>
-        </section>        
-
-        <section class="visit-section" id="visit">
-            <h2 class="section-title">Restaurants Crustacean Creations</h2>
-            <div class="visit-grid">
-                <div class="visit-card" onclick="window.open('https://www.google.com/maps?q=63/63,+Bangla+Sahib+Rd,+New+Delhi', '_blank')">
-                    <div class="card-content">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>63/63, Bangla Sahib Rd, New Delhi</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-clock"></i>
-                        <span>Open: 11 AM - 10 PM</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-phone"></i>
-                        <span>+91 98765 43210</span>
-                    </div>
-                </div>
-                <div class="visit-card" onclick="window.open('https://www.google.com/maps?q=5781,+Katra+Rathi,+New+Delhi', '_blank')">
-                    <div class="card-content">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>5781, Katra Rathi, New Delhi</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-clock"></i>
-                        <span>Open: 11 AM - 10 PM</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-phone"></i>
-                        <span>+91 98765 43211</span>
-                    </div>
-                </div>
-                <div class="visit-card" onclick="window.open('https://www.google.com/maps?q=22,+Khan+Market,+Rabindra+Nagar,+New+Delhi', '_blank')">
-                    <div class="card-content">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>22, Khan Market, Rabindra Nagar, New Delhi</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-clock"></i>
-                        <span>Open: 11 AM - 10 PM</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-phone"></i>
-                        <span>+91 98765 43212</span>
-                    </div>
-                </div>
-                <div class="visit-card" onclick="window.open('https://www.google.com/maps?q=110/10,+Gautam+Nagar,+New+Delhi', '_blank')">
-                    <div class="card-content">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>110/10, Gautam Nagar, New Delhi</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-clock"></i>
-                        <span>Open: 11 AM - 10 PM</span>
-                    </div>
-                    <div class="card-content">
-                        <i class="fas fa-phone"></i>
-                        <span>+91 98765 43213</span>
-                    </div>
-                </div>
-            </div>
-        </section>   
-        
-        <div id="popup-form" class="popup-form" style="display: none;">
-            <div id="overlay" class="overlay"></div>
-            <form action="thanks_form.php" class="site-form " method="post">
-                <h2 class="title ">Leave a request</h2>
-                <img id="close-popup" src="img/close.jpg" class="close" alt="close" class="close">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <textarea name="message" placeholder="Message" required></textarea>
-                <div class="checkbox">
-
-
-                    <input type="checkbox" name="privacy" value="on" required> I accept <a class="privacy-form" href="privacy-policy.html">Privacy policy</a>
-                </div>
-                <button type="submit" class="btn btn-send">Send</button>
-          </form>
-        </div>
-
-        
-
-    </main>
-
-    <footer class="footer">
-        <div class="visit-card-footer" >
-            <div class="card-content" onclick="window.open('https://www.google.com/maps?q=1417+Sitaram+Bazar+Rd,+Kucha+Pati+Ram,+Old+Delhi,+New+Delhi', '_blank')">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>1417, Sitaram Bazar Rd, Kucha Pati Ram, Old Delhi, New Delhi</span>
-            </div>
-            <div class="card-content">
-                <i class="fas fa-phone"></i>
-                <a href="tel:+919876543210">+91 98765 43210</a>
-            </div>
-            <div class="card-content">
-                <a href="mailto:crustaceancreations@gmail.com" class="contact-email">crustaceancreations@gmail.com</a>
-            </div>
-        </div>
-        <p class="footer-text">
-            Our site complies with <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms of Service</a>.
-        </p>
-        <p class="footer-text">&copy; 2025 Crustacean Creations. All rights reserved.</p>
-    </footer>
-</body>
+            <p class="footer-text">
+                Our site complies with
+                <a href="privacy-policy.html">Privacy Policy</a> and
+                <a href="terms-conditions.html">Terms of Service</a>.
+            </p>
+            <p class="footer-text">
+                &copy; 2025 Crustacean Creations. All rights reserved.
+            </p>
+        </footer>
+    </body>
 </html>

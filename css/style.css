@@ -472,6 +472,133 @@ body::-webkit-scrollbar-track {
 .visit-card-footer .card-content a {
     transition: all 0.2s ease-in-out;
 }
+
+
+.reviews-section-title{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+.slider {
+    display: flex;
+    gap: 15px;
+    
+    transition: transform 0.5s ease-in-out;
+}
+.review {
+    min-width: 40%;
+    width: 100px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.author {
+    font-weight: bold;
+    color: #0077b6;
+    margin-top: 10px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.btn {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #0077b6;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffd700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.promo-card {
+    background-color: #001f3393;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    transition: transform 0.3s;
+}
+
+.promo-card:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #ffd700;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.promo-text {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.delivery-info {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.call-to-action {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.order-button {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #e55347; 
+}
+
+
+@media (min-width:1025px) {
+    .btn:hover{
+        transform: scale(1.1);
+        
+
+    }
+    
+}
+
 @media (max-width: 820px) {
     .visit-card-footer {
         display: flex;
