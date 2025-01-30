@@ -73,6 +73,48 @@
                 <p>Our team features some of the most experienced pizza chefs in New Delhi. With years of experience and a passion for their craft, they bring creativity and expertise to every pie. Whether you prefer a classic Margherita or a unique specialty pizza, our chefs ensure that every bite is a delight.</p>
             </div>
         </section>
+        <div id="popup-form" class="popup-form" style="display: none">
+            <div id="overlay" class="overlay"></div>
+            <form action="thanks_form.php" class="site-form" method="post">
+                <h2 class="title">Leave a request</h2>
+                <img
+                    id="close-popup"
+                    src="img/close.png"
+                    class="close"
+                    alt="close"
+                />
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    required
+                />
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                />
+                <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                ></textarea>
+                <div class="checkbox">
+                    <input
+                        type="checkbox"
+                        name="privacy"
+                        value="on"
+                        required
+                    />
+                    I accept
+                    <a class="privacy-form" href="privacy-policy.html"
+                        >Privacy policy</a
+                    >
+                </div>
+                <button type="submit" class="btn btn-send">Send</button>
+            </form>
+        </div>
     </main>
     
     <footer class="footer">
